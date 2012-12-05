@@ -1,6 +1,6 @@
 require "test/unit/assertions"
 require "protest"
-require "mocha"
+require "mocha/setup"
 require "libvirt"
 
 # Test helpers which monkey-patch Protest::TestCase directly

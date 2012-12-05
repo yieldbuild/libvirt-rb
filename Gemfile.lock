@@ -2,28 +2,30 @@ PATH
   remote: .
   specs:
     libvirt (0.2.1.dev)
-      ffi (~> 1.1.5)
-      nokogiri (~> 1.4.3)
+      ffi (~> 1.2.0)
+      nokogiri (~> 1.5.5)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    bluecloth (2.0.9)
-    ffi (1.1.5)
-    mocha (0.9.10)
-      rake
-    nokogiri (1.4.7)
+    bluecloth (2.2.0)
+    ffi (1.2.0)
+    ffi (1.2.0-java)
+    metaclass (0.0.1)
+    mocha (0.13.0)
+      metaclass (~> 0.0.1)
+    nokogiri (1.5.5)
+    nokogiri (1.5.5-java)
     protest (0.4.2)
-    rake (0.8.7)
-    yard (0.6.3)
+    yard (0.8.3)
 
 PLATFORMS
   java
   ruby
 
 DEPENDENCIES
-  bluecloth (~> 2.0.9)
+  bluecloth (~> 2.2.0)
   libvirt!
-  mocha (~> 0.9.8)
-  protest (~> 0.4.0)
-  yard (~> 0.6.1)
+  mocha (~> 0.13.0)
+  protest (~> 0.4.2)
+  yard (~> 0.8.3)

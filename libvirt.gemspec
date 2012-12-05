@@ -13,11 +13,11 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "libvirt"
 
-  s.add_dependency "ffi", "~> 1.1.5"
-  s.add_dependency "nokogiri", "~> 1.4.3"
+  s.add_dependency "ffi", "~> 1.2.0"
+  s.add_dependency "nokogiri", "~> 1.5.5"
 
-  s.add_development_dependency "protest", "~> 0.4.0"
-  s.add_development_dependency "mocha", "~> 0.9.8"
+  s.add_development_dependency "protest", "~> 0.4.2"
+  s.add_development_dependency "mocha", "~> 0.13.0"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
