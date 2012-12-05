@@ -287,7 +287,7 @@ module FFI
     end
 
     libvirt_version "0.7.5" do
-      attach_function :virDomainMemoryStats, [:virDomainPtr, :virDomainMemoryStatsPtr, :uint, :uint], :int
+      attach_function :virDomainMemoryStats, [:virDomainPtr, :virDomainMemoryStatPtr, :uint, :uint], :int
       attach_function :virConnectCompareCPU, [:virConnectPtr, :string, :uint], :int
     end
 
