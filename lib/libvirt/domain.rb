@@ -189,8 +189,9 @@ module Libvirt
     #
     # @return [Boolean]
     def resume
-      return true if active?
-      FFI::Libvirt.virDomainResume(self) == 0
+      if active?
+        FFI::Libvirt.virDomainResume(self) == 0
+      end
     end
 
     # Reboots the domain.
